@@ -1,0 +1,35 @@
+	body { 
+	color:#555555;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-family:"Arial", "Tahoma", "Verdana", "Trebuchet MS", sans-serif;
+	background-color: #B88A00;
+	}
+	
+	table{
+   background-color:#E9DDC3;
+   border-width:1px;border-color:#41382E;
+   border-style: none none solid solid; width:100%;
+   padding-top:1px;padding-left:2px;
+   padding-right:2px;padding-bottom:2px;
+   top:25px;
+   left:50%;}
+   
+   input[type=submit] {
+   padding:5px 15px; 
+   background:#ccc; 
+   border:0 none;
+   cursor:pointer;
+   -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+   }
+   
+   table td{
+   width:25%;
+   display:table-cell;
+   vertical-align:top;
+   text-align: center;
+   vertical-align: text-top;
+   -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+   }
