@@ -7,8 +7,8 @@
 	}
 	
 	table{
-   background-color:#E9DDC3;
-   border-width:1px;border-color:#41382E;
+   background-color:#B88A00;
+   border-width:1px;border-color:#B88A00;
    border-style: none none solid solid; width:100%;
    padding-top:1px;padding-left:2px;
    padding-right:2px;padding-bottom:2px;
@@ -25,6 +25,7 @@
    }
    
    table td{
+   background-color:#E9DDC3;
    width:25%;
    display:table-cell;
    vertical-align:top;
