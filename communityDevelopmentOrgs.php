@@ -10,7 +10,7 @@
 		<div class='columns large-12'>
 		<h2>Community Development</h2>
 		</div></div></div>
-	<table border='2'>
+	<table border='1'>
 	<col width="500">
 	<tr>
 	<td>
@@ -57,7 +57,7 @@
 			</div></div></div>
 	</td>
 <td>
-	<div class='row content' align='right'> 
+	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
 			    <h2>Hands on Miami</h2>
@@ -70,6 +70,7 @@
 			<input type="submit" value="Donate">
 			</div></div></div>
 		</td>
+		</tr>
 	
 	</table>
 </body>
