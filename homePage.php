@@ -5,6 +5,7 @@
 	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+
 	<header>
 		<hr>
 		<table>
@@ -74,7 +75,7 @@
 				</div>
 			</td>
 			<td>
-				<a href="donationForm.php">Donate Now</a>
+				<a href="">Your Cart</a>
 			</td>
 			</tr>
 			
@@ -82,10 +83,13 @@
 		</table>
 <hr>		
 	</header>
+	
 	<div style="background-color:#909090; color:#909090; padding:20px;">
-	<table align="center">
+	<p><b>Donate Nation allows you the option to donate to an organization of your choosing.</b></p>
+	<table align="center" cellspacing="10">
 		<tr>
 			<td>
+				
 				<a href="communityDevelopmentOrgs.php">
 				<img class="roundrect" src="communityDevelopmentOrgs.jpg" alt="communityDevelopmentOrgs" height="200" width="250" border="5" />
 				</a>
@@ -101,9 +105,14 @@
 				</a>
 			</td>
 		</tr>
+		<tr>
+			<td><b>Community Development</b></td>
+			<td><b>Education</b></td>
+			<td><b>Environment</b></td>
+		</tr>
 	</table>
 	<br />
-	<table align="center">
+	<table align="center" cellspacing="10">
 		<tr>
 			<td>
 				<a href="medicineOrgs.php">
@@ -116,6 +125,11 @@
 				</a>
 			</td>
 		</tr>
+		<tr>
+			<td><b>Medicine</b></td>
+			<td><b>Other</b></td>
+			
+		</tr>
 	</table>
 	
 <footer>
@@ -126,6 +140,9 @@
 	<a href="http://twitter.com"><img src="twitter.jpg" height="40" width="40"></a>
 
 </footer>
+<hr>
+
 </div>
+
 </body>
 </html>
