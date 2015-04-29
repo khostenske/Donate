@@ -25,7 +25,7 @@
     die ("Cannot connect: ".mysql_error());
     
     //select DB
-    mysql_select_db("websiteName", $dbLocalhost) or
+    mysql_select_db("donationNation", $dbLocalhost) or
     die ("Cannot find database: ".mysql_error());
     
     //receive data from HTML form
