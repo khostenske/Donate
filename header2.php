@@ -1,7 +1,7 @@
 <?php
-session_start();
-
-$loggedin = $_SESSION['loggedin'];
+if (isset ($_SESSION['loggedin'])) 
+	{$loggedin = $_SESSION['loggedin'];}
+	else { $loggedin = FALSE; }
 ?>
 
 <header>
@@ -23,11 +23,11 @@ $loggedin = $_SESSION['loggedin'];
 			
 			<td>
 			<?php
-				if $loggedin = FALSE {
+				if ($loggedin == FALSE) {
 					echo "<a href='login.php'>Sign In</a>"; }
 				else {
 					echo "<a href='logout.php'>Log Out</a>"; }
-			?>
+			?> 
 			</td>
 			
 			<td>
