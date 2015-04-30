@@ -10,7 +10,7 @@
 ?>
 	<div>
 	<p><b>Donate Nation allows you the option to donate to an organization of your choosing.</b></p>
-	<table align="center" cellspacing="10">
+	<table cellspacing="10">
 		<tr>
 			<td>
 				
@@ -36,7 +36,7 @@
 		</tr>
 	</table>
 	<br />
-	<table align="center" cellspacing="10">
+	<table cellspacing="10">
 		<tr>
 			<td>
 				<a href="medicineOrgs.php">
