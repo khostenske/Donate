@@ -17,7 +17,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>GreenPeace Fund</h2>
+			<img src="greenpeace.jpg" height="100" width="250">
 			</div>
 			<div class='body'>
 					<h2>Worldwide</h2>
@@ -34,7 +34,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Friends of the Earth</h2>
+			<img src="friendsoftheearth.jpeg" height="100" width="150">
 			</div>
 			<div class='body'>
 					<h2>Worldwide</h2>
@@ -49,7 +49,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Rainforest Alliance</h2>
+			<img src="rainforestalliance.png" height="125" width="150">
 			</div>
 			<div class='body'>
 					<h2>Worldwide</h2>
@@ -65,7 +65,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Ocean Conservency</h2>
+			 <img src="oceanconservancy.jpeg" height="100" width="150">
 			</div>
 			<div class='body'>
 					<h2>Worldwide</h2>
