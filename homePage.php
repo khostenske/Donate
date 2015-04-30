@@ -6,11 +6,11 @@
 </head>
 <body>
 <?php
-	include('header.php');
+	include('header2.php');
 ?>
 	<div>
 	<p><b>Donate Nation allows you the option to donate to an organization of your choosing.</b></p>
-	<table cellspacing="10">
+	<table class="purple" cellspacing="10">
 		<tr>
 			<td>
 				
@@ -36,7 +36,7 @@
 		</tr>
 	</table>
 	<br />
-	<table cellspacing="10">
+	<table class="purple" cellspacing="10">
 		<tr>
 			<td>
 				<a href="medicineOrgs.php">
