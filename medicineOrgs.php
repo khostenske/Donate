@@ -1,14 +1,20 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?><!DOCTYPE html>
 <html>
 <head>
 	<title>Donation Nation</title>
 	<link href="categories.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-	<h1>Donation Nation</h1>
+	<?php
+		include('header2.php');
+	?>
+<form action="cart.php" method="POST">
+<div class="green">
 	<div align='left' class='title-wrap'><div class='row'>
 		<div class='columns large-12'>
-		<h2>Medicine</h2>
+		<h2 class="yellow">Medicine</h2>
 		</div></div></div>
 	<table border='1'>
 	<col width="500">
@@ -24,8 +30,8 @@
 					<p>Whether they are collecting and distributing books to school children, introducing medical strategies to combat the spread of HIV/AIDS, or identifying and supporting women's micro-enterprise projects, Aid for Africa's members have one thing in common
 					a passionate desire to help the people of Africa solve critical problems and build a better future for their children and communities.
 					</br></br>
-			</br></br></br></br><h2>Project Funding</h2>
-				<h3>Aid for Africa partners with businesses as well as members who help solve medical problems the african people suffer from.</h3>
+			</br></br></br></br></br><h2>Project Funding</h2>
+				<h3>Aid for Africa partners with businesses and members who help solve medical problems African people suffer from.</h3>
 			<input type="submit" value="Donate">
 			</div></div></div>
 	</td>
@@ -58,7 +64,7 @@
 					We plan and support clinical research to develop new health care technologies for children affected by disease or disaster, and disseminate and implement proven, effective results through our network worldwide.
 
 </p>
-			</br></br><h2>Project Funding</h2>
+			</br></br></br><h2>Project Funding</h2>
 				<h3>Child Health Foundation partners with other organizations, using donations to save as many children's live as possible</h3>
 			<input type="submit" value="Donate">
 			</div></div></div>
@@ -73,13 +79,14 @@
 					<h2>WorldWide</h2>
 					<p>For more than 100 years, immunology and immunotherapy have played an ever-increasing role in the understanding and treatment of cancer. Since 1953, CRI and CRI scientists have played a major role in bringing about and accelerating this transformation.
 					Our timeline, spanning 1891 to today and containing more than 200 entries, shows some of the major discoveries and milestones in the field, highlighting CRI's impact along the way.</p>
-			</br></br></br><h2>Project Funding</h2>
+			</br></br></br></br><h2>Project Funding</h2>
 				<h3>Cancer Research Institute has many partners and private donators helping treat, and eventually find a cure for cancer</h3>
 			<input type="submit" value="Donate">
 			</div></div></div>
 		</td>
 		</tr>
 	
-	</table>
+	</table></form>
+</div>
 </body>
 </html>
