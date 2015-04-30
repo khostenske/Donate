@@ -19,7 +19,6 @@
 <?php
 
     //connect to DBMS
-    //$dbLocalhost = mysql_connect("localhost:8889","root","root") or
     $dbLocalhost = mysql_connect("localhost","root","usbw") or
     die ("Cannot connect: ".mysql_error());
     
