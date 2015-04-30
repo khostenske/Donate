@@ -17,7 +17,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>The Salvation Army</h2>
+			<img src="salvationarmy.jpeg" height="100" width="150">
 			</div>
 			<div class='body'>
 					<h2>Worldwide</h2>
@@ -35,7 +35,7 @@ is to preach the gospel of Jesus Christ and to meet human needs in His name with
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Feeding America</h2>
+			<img src="feedingamerica.png" height="100" width="150">
 			</div>
 			<div class='body'>
 					<h2>United States</h2>
@@ -50,7 +50,7 @@ is to preach the gospel of Jesus Christ and to meet human needs in His name with
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Goodwill</h2>
+			<img src="Goodwill.png" height="80" width="200">
 			</div>
 			<div class='body'>
 					<h2>United States</h2>
@@ -65,7 +65,7 @@ is to preach the gospel of Jesus Christ and to meet human needs in His name with
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Boy's and Girl's Club</h2>
+			<img src="Boysandgirlsclub.jpeg" height="90" width="150">
 			</div>
 			<div class='body'>
 					<h2>United States</h2>
