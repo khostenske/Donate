@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,10 +8,14 @@
 	<link href="categories.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-	<h1>Donation Nation</h1>
+	<?php
+		include('header2.php');
+	?>
+<form action="cart.php" method="POST">
+<div class="green">
 	<div align='left' class='title-wrap'><div class='row'>
 		<div class='columns large-12'>
-		<h2>Other Organizations</h2>
+		<h2 class="yellow">Other</h2>
 		</div></div></div>
 	<table border='1'>
 	<col width="500">
@@ -56,7 +63,7 @@ is to preach the gospel of Jesus Christ and to meet human needs in His name with
 					<h2>United States</h2>
 					<p>Goodwill works to enhance the dignity and quality of life of individuals and families by strengthening communities, eliminating barriers to opportunity, and helping people in need reach
 					their full potential through learning and the power of work.</p>
-			</br></br></br></br></br></br><h2>Project Funding</h2>
+			</br></br></br></br></br><h2>Project Funding</h2>
 				<h3>Goodwill has several well known partners, who along with private donors help Goodwill towards their goals.</h3>
 			<input type="submit" value="Donate">
 			</div></div></div>
@@ -78,6 +85,7 @@ is to preach the gospel of Jesus Christ and to meet human needs in His name with
 		</td>
 		</tr>
 	
-	</table>
+	</table></form>
+</div>
 </body>
 </html>
