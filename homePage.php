@@ -5,52 +5,10 @@
 	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-
-	<header>
-		<hr>
-		<table>
-		<tr>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				<a href="homePage.php"><img src="logo.png.png" alt="logo" /></a>
-			</td>
-			<?php
-				for($a=0;$a<=30;$a++) {
-					echo "<td>";
-					echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
-					echo "</td>";
-				}
-			?>
-			<td>
-			 	<a href="custRegistration.php" align="right">Sign Up</a>
-				<!-- sign up and sign in pages are called???
-				-->	
-			</td>
-			<td>
-				<div style="border-left:medium #909090 solid; height:20px;" />
-				</div>
-			</td>
-			<td>
-				<a href="login.php">Sign In</a>
-			</td>
-			<td>
-				<div style="border-left:medium #909090 solid; height:20px;" />
-				</div>
-			</td>
-			<td>
-				<a href="cart.php">Your Cart</a>
-			</td>
-			</tr>
-			
-			
-		</table>
-<hr>		
-	</header>
-	
-	<div style="background-color:#909090; color:#909090; padding:20px;">
+<?php
+	include('header.php');
+?>
+	<div>
 	<p><b>Donate Nation allows you the option to donate to an organization of your choosing.</b></p>
 	<table align="center" cellspacing="10">
 		<tr>
