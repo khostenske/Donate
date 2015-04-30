@@ -1,14 +1,19 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Donation Nation</title>
-	<link href="categories.css" rel="stylesheet" type="text/css"/>
+	<link href="categories1.css" rel="stylesheet" type="text/css"/>
 	
 </head>
 <body>
+	
 <?php
 	include('header2.php');
 ?>
+<form action="cart.php" method="POST">
 <div class="green">
 	<div align='left' class='title-wrap'><div class='row'>
 		<div class='columns large-12'>
@@ -78,7 +83,7 @@
 		</td>
 		</tr>
 	
-	</table>
+	</table></form>
 </div>
 </body>
 </html>
