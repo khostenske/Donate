@@ -10,15 +10,17 @@
 <head>
 <!-- 	file name: confirmOrgReg.php -->
 	<title>Donation Nation</title>
-	<link href="php.css" rel="stylesheet" type="text/css"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-
+<?php
+	include('header2.php');
+?>
+<div class="green">
 <h2>Thank you for registering your organization!</h2><br />
 <h3>We will review your application and contact you shortly.</h3>
 
 <?php
-
     //connect to DBMS
     $dbLocalhost = mysql_connect("localhost","root","usbw") or
     die ("Cannot connect: ".mysql_error());
@@ -50,6 +52,6 @@
     mysql_close($dbLocalhost);
     
 ?>
-
+</div>
 </body>
 </html>
