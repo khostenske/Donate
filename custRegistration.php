@@ -24,7 +24,6 @@
     <tr>
 	<td class="left">Address:</td><td><input type="text" size="25" name="address" id="address"/></td><br />
         <td class="left">City:</td><td><input type="text" size="25" name="city" id="city"/></td>
-<!--Use drop down for state--> 
         <td class="left">State:</td><td><input type="text" size="2" name="state" id="state"/></td>
         <td class="left">Zip Code:</td><td><input type="text" size="5" name="zip" id="zip"/></td>
     </tr>
@@ -33,7 +32,6 @@
     <tr>
 	<td class="left">Card Number:</td><td><input type="text" size="25" name="cardNum" id="cardNum"/></td><br />
         <td class="left">CVV Number:</td><td><input type="text" size="3" name="cvvNum" id="cvvNum"/></td><br />
-<!--Use drop down for expiration date month and year-->
         <td class="left">Exp. Date:</td><td><input type="text" size="10" name="expDate" id="expDate"/></td>
     </tr>
 	<td><input type="submit" value="Register" name='submit'></td>
