@@ -10,14 +10,16 @@
 <head>
 <!-- 	file name: confirmCustReg.php -->
 	<title>Donation Nation</title>
-	<link href="php.css" rel="stylesheet" type="text/css"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-
+<?php
+	include('header2.php');
+?>
+<div class="green">
 <h2>Thank you for registering!</h2>
 
 <?php
-
     //connect to DBMS
     $dbLocalhost = mysql_connect("localhost","root","usbw") or
     die ("Cannot connect: ".mysql_error());
@@ -59,6 +61,6 @@
 ?>
 
 <a href="login.php">Click here to log in.</a>
-
+</div>
 </body>
 </html>
