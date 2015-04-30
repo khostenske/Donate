@@ -21,10 +21,23 @@ h1 	{font-family:times new roman;
 		font-size:50pt;
 		color:blue;}
 		
+div	{background-color:#909090;
+	color:#909090;
+	padding:20px;}
+	
+.line {border-left:thin solid #909090; 
+	height:20px;
+	width:1px;}
+		
 footer{text-align:center;}
 
 td 	{text-align:center;
 		color:white;}
+
+.pink {text-align:center;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;}
 
 th	{color:white;}
 
@@ -36,12 +49,12 @@ h3	{font-family:times new roman;
 		text-align:center;
 		color:white;}
 
-a:href{text-align:right;}
+a:href{text-align:center;}
 
 
 .roundrect{border-radius: 15px;}
 
-.image {position: relative;}
+
 
 .left {width: 140px;
 		float:left;
@@ -52,4 +65,15 @@ a:href{text-align:right;}
 		float:right;}
 
 .image {height: 200px;
-		width: 250px;}
+		width: 250px;
+		position: relative;}}
+
+table {text-align: center;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;}
+	
+.purple {text-align: center;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;}
