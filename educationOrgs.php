@@ -17,10 +17,12 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Teach For America</h2>
+			    <!--<h2>Teach For America</h2>-->
+			    <img src="Teach.jpg" height="100" width="150">
 			</div>
 			<div class='body'>
 					<h2>United States</h2>
+					
 					<p>Our mission is to enlist, develop, and mobilize our nation's most promising future leaders to grow and strengthen the movement for educational equity.
 					Teach for America began in 1989 as Wendy Kopps senior thesis at Princeton University.  Public schools, decades after desegregation, remained a realm of inequity, unable to make up for
 					the long-term effects of poverty, racism, and deeply rooted injustices.  If our country is going to adress this problem, more leaders would need to be grounded in the issues at the classroom level
@@ -35,7 +37,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Books For Africa</h2>
+			<img src="BooksforAfrica.jpeg" height="90" width="150">
 			</div>
 			<div class='body'>
 					<h2>Africa</h2>
@@ -50,7 +52,7 @@ Books For Africa remains the largest shipper of donated text and library books t
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Pratham</h2>
+			 <img src="Pratham.jpeg" height="90" width="150">
 			</div>
 			<div class='body'>
 					<h2>India</h2>
@@ -65,7 +67,7 @@ Books For Africa remains the largest shipper of donated text and library books t
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Crayons for Classrooms</h2>
+			<img src="Crayons.jpeg" height="100" width="150">
 			</div>
 			<div class='body'>
 					<h2>United States</h2>
