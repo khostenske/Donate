@@ -13,7 +13,7 @@
 	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <?php
-	include('header.php');
+	include('header2.php');
 ?>
 <body>
 <div>
