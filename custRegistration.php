@@ -6,13 +6,16 @@
 <head>
 <!-- 	file name: custRegistration.php -->
 	<title>Donation Nation</title>
-	<link href="php.css" rel="stylesheet" type="text/css"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-
+<?php
+	include('header2.php');
+?>
+<div class="green">
 <h2>Register</h2>
 <form action="confirmCustReg.php" method="POST">
-<table border="0">
+<table class="red" border="0">
     <tr>
 	<td class="left">Email:</td><td><input type="text" size="25" name="email" id="email"/></td>
         <td class="left">Password:</td><td><input type="password" size="25" name="password" id="password"/></td>
@@ -34,11 +37,13 @@
         <td class="left">CVV Number:</td><td><input type="text" size="3" name="cvvNum" id="cvvNum"/></td><br />
         <td class="left">Exp. Date:</td><td><input type="text" size="10" name="expDate" id="expDate"/></td>
     </tr>
+	</table>
+	<table class="red">
 	<td><input type="submit" value="Register" name='submit'></td>
         <td><input type="reset" value="Clear" name='reset'></td>
     </tr>
 </table>
 </form>
-
+</div>
 </body>
 </html>
