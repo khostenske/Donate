@@ -20,8 +20,7 @@
 <?php
 
     //connect to DBMS
-    $dbLocalhost = mysql_connect("localhost:8889","root","root") or
-    //for USBWebServer: $dbLocalhost = mysql_connect("localhost","root","usbw") or
+    $dbLocalhost = mysql_connect("localhost","root","usbw") or
     die ("Cannot connect: ".mysql_error());
     
     //select DB
@@ -30,24 +29,21 @@
     
     //receive data from HTML form
     $orgName=$_POST['orgName'];
-    $description=$_POST['description'];
+    //$orgDescription=$_POST['orgDescription'];
     $category=$_POST['category'];
     $orgAddress=$_POST['orgAddress'];
     $orgCity=$_POST['orgCity'];
     $orgState=$_POST['orgState'];
     $orgZip=$_POST['orgZip'];
-    $orgFName=$_POST['orgFName'];
-    $orgLName=$_POST['orgLName'];
     $orgPhone=$_POST['orgPhone'];
-    $orgEmail=$_POST['orgEmail'];
-    
-    //insert customer data
-    $sql = "INSERT INTO `organization` (`orgID`, `orgName`, `category`, `address`,
-    `city`, `state`, `zip`, `contactFName`, `contactLName`, `phone`, `email`)
-	    VALUES (NULL,'$orgName','$category','$orgAddress',$orgCity','$orgState','$orgZip',
-	    $orgFName',$orgLName','$orgPhone',$orgEmail')";
+  
+    //insert organization data
+    $sql = "INSERT INTO `organizations` (`orgID`, `orgName`, `category`, `orgAddress`,
+    `orgCity`, `orgState`, `orgZip`, `orgPhone`)
+	VALUES (NULL,'$orgName','$category','$orgAddress',$orgCity','$orgState','$orgZip',
+	'$orgPhone')";
 	
-    $currentOrg=mysql_query($sql,$dbLocalhost) or
+     $currentOrg=mysql_query($sql,$dbLocalhost) or
     die ("Cannot insert to database: ".mysql_error());
     
     //close connection to DBMS
