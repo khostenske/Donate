@@ -5,7 +5,7 @@ session_start();
 <html>
 <head>
 	<title>Donation Nation</title>
-	<link href="categories1.css" rel="stylesheet" type="text/css"/>
+	<link href="categories.css" rel="stylesheet" type="text/css"/>
 	
 </head>
 <body>
