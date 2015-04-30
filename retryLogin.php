@@ -10,26 +10,29 @@
 <head>
 <!-- 	file name: retryLogin.php -->
 	<title>Donation Nation</title>
-	<link href="php.css" rel="stylesheet" type="text/css"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-
+<?php
+	include('header.php');
+?>
+	<div>
 <h2>Login</h2>
 <h3>The username or password was incorrect. Please try again.</h3>
 
 <form action="loginCheck.php" method="POST">
-<table border="0">
+<table class="pink" border="0">
     <tr>
-	<td class="left">Email:<input type="text" size="25" name="email" id="email"/></td>
+	<td class="pink">Email:<input type="text" size="25" name="email" id="email"/></td>
     </tr>
     <tr>
-	<td class="left">Password:<input type="password" size="25" name="password" id="password" /></td>
+	<td class="pink">Password:<input type="password" size="25" name="password" id="password" /></td>
     </tr>
     <tr>
 	<td><input type="submit" value="Login" name='submit'></td>
     </tr>
 </table>
 </form>
-
+</div>
 </body>
 </html>
