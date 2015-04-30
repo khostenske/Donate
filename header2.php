@@ -1,3 +1,9 @@
+<?php
+session_start();
+
+$loggedin = $_SESSION['loggedin'];
+?>
+
 <header>
 		<hr>
 		<table class="red">
@@ -16,7 +22,12 @@
 			</td>
 			
 			<td>
-				<a href="login.php">Sign In</a>
+			<?php
+				if $loggedin = FALSE {
+					echo "<a href='login.php'>Sign In</a>"; }
+				else {
+					echo "<a href='logout.php'>Log Out</a>"; }
+			?>
 			</td>
 			
 			<td>
