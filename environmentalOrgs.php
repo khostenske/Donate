@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,10 +8,14 @@
 	<link href="categories.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-	<h1>Donation Nation</h1>
+	<?php
+		include('header2.php');
+	?>
+<form action="cart.php" method="POST">
+<div class="green">
 	<div align='left' class='title-wrap'><div class='row'>
 		<div class='columns large-12'>
-		<h2>Environmental</h2>
+		<h2 class="yellow">Environmental</h2>
 		</div></div></div>
 	<table border='1'>
 	<col width="500">
@@ -56,7 +63,7 @@
 					<p>At the heart of the Rainforest Alliance's approach is the understanding that the health of the land is inextricably connected to the wellbeing of those who depend on it for their livelihoods.We envision a world where
 					people can thrive and prosper in harmony with the land.
 					Our approach includes training and certification to promote healthy ecosystems and communities in some of the world's most vulnerable ecosystems.</p>
-			</br></br><h2>Project Funding</h2>
+			</br></br></br><h2>Project Funding</h2>
 				<h3>Rainforest Alliance engage businesses and private donor to join our efforts to help protect vulnerable nature in our world</h3>
 			<input type="submit" value="Donate">
 			</div></div></div>
@@ -79,6 +86,7 @@ Our goal is to bring people together to find solutions for our water planet. We 
 		</td>
 		</tr>
 	
-	</table>
+	</table></form>
+</div>
 </body>
 </html>
