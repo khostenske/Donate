@@ -17,7 +17,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Aid for Africa</h2>
+			<img src="AidforAfrica.jpeg" height="100" width="150">
 			</div>
 			<div class='body'>
 					<h2>Africa</h2>
@@ -34,7 +34,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Red Cross</h2>
+			<img src="redcross.png" height="90" width="225">
 			</div>
 			<div class='body'>
 					<h2>United States/Worldwide</h2>
@@ -49,7 +49,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Child Health Foundation</h2>
+			<img src="childhealthfoundation.jpeg" height="100" width="150">
 			</div>
 			<div class='body'>
 					<h2>United States</h2>
@@ -67,7 +67,7 @@
 	<div class='row content'> 
 		<div class='columns large-3 project'>
 			<div class='head'>
-			    <h2>Cancer Research Institute</h2>
+			<img src="cancerresearch.jpeg" height="90" width="150">
 			</div>
 			<div class='body'>
 					<h2>WorldWide</h2>
