@@ -17,49 +17,15 @@
 			<td>
 				<a href="homePage.php"><img src="logo.png.png" alt="logo" /></a>
 			</td>
-			
+			<?php
+				for($a=0;$a<=30;$a++) {
+					echo "<td>";
+					echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+					echo "</td>";
+				}
+			?>
 			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			</td>
-			<td>
-			 	<a href="" align="right">Sign Up</a>
+			 	<a href="custRegistration.php" align="right">Sign Up</a>
 				<!-- sign up and sign in pages are called???
 				-->	
 			</td>
@@ -68,14 +34,14 @@
 				</div>
 			</td>
 			<td>
-				<a href="">Sign In</a>
+				<a href="login.php">Sign In</a>
 			</td>
 			<td>
 				<div style="border-left:medium #909090 solid; height:20px;" />
 				</div>
 			</td>
 			<td>
-				<a href="">Your Cart</a>
+				<a href="cart.php">Your Cart</a>
 			</td>
 			</tr>
 			
