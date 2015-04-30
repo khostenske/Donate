@@ -3,14 +3,18 @@
 <head>
 	<title>Donation Nation</title>
 	<link href="categories.css" rel="stylesheet" type="text/css"/>
+	
 </head>
 <body>
-	<h1>Donation Nation</h1>
+<?php
+	include('header2.php');
+?>
+<div class="green">
 	<div align='left' class='title-wrap'><div class='row'>
 		<div class='columns large-12'>
-		<h2>Community Development</h2>
+		<h2 class="yellow">Community Development</h2>
 		</div></div></div>
-	<table border='1'>
+	<table class="blue" border='1'>
 	<col width="500">
 	<tr>
 	<td>
@@ -75,5 +79,6 @@
 		</tr>
 	
 	</table>
+</div>
 </body>
 </html>
