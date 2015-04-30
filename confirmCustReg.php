@@ -1,44 +1,65 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE hmtl>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1/EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
 <html>
 <head>
-<!-- 	file name: custRegistration.php -->
+<!-- 	file name: confirmCustReg.php -->
 	<title>Donation Nation</title>
 	<link href="php.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
-<h2>Register</h2>
-<form action="confirmCustReg.php" method="POST">
-<table border="0">
-    <tr>
-	<td class="left">Email:</td><td><input type="text" size="25" name="email" id="email"/></td>
-        <td class="left">Password:</td><td><input type="password" size="25" name="password" id="password"/></td>
-    </tr>
-    <tr>
-	<td class="left">First Name:</td><td><input type="text" size="25" name="fName" id="fName"/></td>
-        <td class="left">Last Name:</td><td><input type="text" size="25" name="lName" id="lName"/></td>
-    </tr>
-    <tr>
-	<td class="left">Address:</td><td><input type="text" size="25" name="address" id="address"/></td><br />
-        <td class="left">City:</td><td><input type="text" size="25" name="city" id="city"/></td>
-        <td class="left">State:</td><td><input type="text" size="2" name="state" id="state"/></td>
-        <td class="left">Zip Code:</td><td><input type="text" size="5" name="zip" id="zip"/></td>
-    </tr>
-     	<td class="left">Phone Number:</td><td><input type="text" size="25" name="phoneNum" id="phoneNum"/></td>
-    </tr>
-    <tr>
-	<td class="left">Card Number:</td><td><input type="text" size="25" name="cardNum" id="cardNum"/></td><br />
-        <td class="left">CVV Number:</td><td><input type="text" size="3" name="cvvNum" id="cvvNum"/></td><br />
-        <td class="left">Exp. Date:</td><td><input type="text" size="10" name="expDate" id="expDate"/></td>
-    </tr>
-	<td><input type="submit" value="Register" name='submit'></td>
-        <td><input type="reset" value="Clear" name='reset'></td>
-    </tr>
-</table>
-</form>
+<h2>Thank you for registering!</h2>
+
+<?php
+
+    //connect to DBMS
+    //$dbLocalhost = mysql_connect("localhost:8889","root","root") or
+    $dbLocalhost = mysql_connect("localhost","root","usbw") or
+    die ("Cannot connect: ".mysql_error());
+    
+    //select DB
+    mysql_select_db("donationNation", $dbLocalhost) or
+    die ("Cannot find database: ".mysql_error());
+    
+    //receive data from HTML form
+    $fName=$_POST['fName'];
+    $lName=$_POST['lName'];
+    $address=$_POST['address'];
+    $city=$_POST['city'];
+    $state=$_POST['state'];
+    $zip=$_POST['zip'];
+    $phone=$_POST['phoneNum'];
+    $email=$_POST['email'];
+    $cardNum=$_POST['cardNum'];
+    $cvvNum=$_POST['cvvNum'];
+    $expDate=$_POST['expDate'];
+    $password=$_POST['password'];
+    
+    //save the data to SESSION array
+    $_SESSION['email']=$email;
+    $_SESSION['password']=$password;
+    
+    //insert customer data
+    $sql = "INSERT INTO `customer` (`custID`, `fName`, `lName`, `address`,
+    `city`, `state`, `zip`, `phone`, `email`,`cardNum`, `cvvNum`, `expDate`, `password`)
+    VALUES (NULL,'$fName','$lName','$address','$city','$state','$zip','$phone',
+    '$email','$cardNum','$cvvNum','$expDate', '$password')";
+    
+    $currentCustomer=mysql_query($sql,$dbLocalhost) or
+    die ("Cannot insert to database: ".mysql_error());
+    
+    //close connection to DBMS
+    mysql_close($dbLocalhost);
+    
+?>
+
+<a href="login.php">Click here to log in.</a>
 
 </body>
 </html>
